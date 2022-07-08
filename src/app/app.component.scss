@@ -1,0 +1,47 @@
+$minPageHeight: 100vh;
+
+#app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: $minPageHeight;
+    
+
+}
+header {
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    color: #FFF;
+}
+
+footer {
+    height: 55px;
+    background-color: #000;
+    display: flex;
+}
+
+#main-container {
+    display: flex;
+    height: calc($minPageHeight - 110px);
+    
+    width: 100%;
+}
+ #side-nav {
+       display: flex;
+        flex-direction: column; 
+        background-color: #CCC;
+        min-width: 200px;
+        width: 200px;
+        
+        height: 100%;
+    }
+
+#main-content {
+        background: #339;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    
